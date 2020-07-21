@@ -4,12 +4,57 @@
         <title>Git Cheat Sheet</title>
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
-    <body>
+    <body class="git">
         <ul>
             <li><a href="cheat.html">HTML</a></li>
             <li><a href="cheatcss.html">CSS</a></li>
             <li style="float:right"><a class="active" href="cheatgit.html">Git</a></li>
             <li><a href="cheatsc.html">Shortcuts</a></li>
         </ul>
+        <div>
+        <h1><strong>Git Cheat Sheet</strong></h1>
+        <img src="GIT.png" alt="git" class="center" style="width:500px;height:200px;">
+        <h2>Managing Your Files</h2>
+        <p>
+            Git is a version control system for tracking changes in computer files and 
+            coordinating work on those files among multiple people. It is primarily used for 
+            software development, but can be used to keep track of changes in any files.<br>
+            Git uses Respitories, which is the overall project.<br>
+            A branch is an extension of the respitory. All repositories start with a "master" 
+            branch. From there new branches can be created and used for new features.<br>
+            A commit is a change to the repository. For every commit made, there is a record of 
+            the state of the repository at that given point in time.<br>
+            The most common command in Git is 'cd' (change directory). which changes which folder 
+            or directory your in.<br>
+            cd also has variants like cd ~, which moves you back to the home directory, cd .., 
+            which moves you up one directory, and ls, which lists the folders and directories within 
+            your current directory.<br>
+        </p>
+        <center class="border">There are numerous 'git' commands, including;
+        <strong>
+            git init, which creates a new repository in your current directory.<br>
+            git clone, which clones a repository from another source. (GitHub, Bitbucket, etc.) 
+            It also places that new repository within whatever directory your in right now.<br>
+            git checkout -b {branch name}, which creates and switches into another branch. 
+            git branch {branch name}, just creates a new branch. <br>
+            git branch -a, displays all branches that are available, remote or local.<br>
+            git status, probably the most important command, which tells you what files have been 
+            modified, deleted, or added. Informs us if the local branch is behind or ahead of the 
+            remote one.<br>
+            git add {file, directory, or, other} stages the changes to be committed, and git branch 
+            . -- Stages all changes from the directory.<br>
+            git commit -m”(commit message)” -- This commits the added changes locally and attaches 
+            the commit message to the commit. Commit messages should be short but descriptive of all 
+            the changes made. Committing does not push changes to the remote repository.<br>
+            git push takes the locally committed changes for a given branch and applies them to the 
+            local version. git push -u origin {branch name} -- This command is used for pushing to 
+            the remote repository with the specific branch name.<br>
+            git pull takes the changes made to the remote repository and applies them to the local 
+            version.<br>
+            mkdir &lt;folder name&gt; makes folders, and rmdir &lt;folder name&gt; removes/deletes 
+            them.
+        </center></strong>
+        
+        </div>
     </body>
 </html>

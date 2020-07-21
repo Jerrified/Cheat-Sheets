@@ -30,13 +30,26 @@ li a:hover {
     background-color: #111;
 }
 
-text {
+.css {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('CSS.jpeg');
+    background-color: black;
+    color: ivory;
+}
+
+.git {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('git2.png');
+    color: ivory;
+}
+
+.html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-img {
-    width: 500px;
-    height: 200px;
+.sc {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .center {
@@ -48,7 +61,28 @@ img {
 
 p {
     border-style: double;
-    border-color: black;
+    border-color: olive;
     font-weight: 500px;
 }
 
+.border {
+    border-style: double;
+    border-color: olive;
+}
+
+.right {
+    position: absolute;
+    left: 0%;
+}
+
+#borderimg {
+    border-image-slice: 100%;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+img {
+    border: 5px solid #555;
+}

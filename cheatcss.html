@@ -4,12 +4,49 @@
         <title>CSS Cheat Sheet</title>
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
-    <body>
+    <body class="css">
         <ul>
             <li><a href="cheat.html">HTML</a></li>
             <li style="float:right"><a class="active" href="cheatcss.html">CSS</a></li>
             <li><a href="cheatgit.html">Git</a></li>
             <li><a href="cheatsc.html">Shortcuts</a></li>
         </ul>
+        <div>
+            <h1><strong>CSS Cheat Sheet</strong></h1>
+            <img src="CSS.jpeg" alt="css" class="center" style="width:500px;height:200px;">
+            <h2>Styling your HTML Documents</h2>
+            <p>
+                CSS uses rules, which dictate how a webpage is presented. Rules are indicated by using
+                opening and closing curly braces {} and contain two parts.<br>
+                The two parts of a CSS rule are the selector and declaration.<br>
+            </p>
+            <img src="RULE.png" alt="css rule" class="center" style="width:500px;height:150px">
+            <p>
+                All declarations must end with a semicolon (;).<br>
+                Declarations also include properties, which indicate styling features and aspects, and 
+                values, which indicate how the developer wants that feature or aspect.<br>
+                Selectors allow you to target specific HTML elements and add style.<br>
+            </p>
+            <center class="border">This can be done by;
+            <strong>
+                Selecting HTML elements based on their element name. (Element selector)<br>
+                Matching an element(s) whose class attributes has a value that matches. A period 
+                (.) must always be placed before the class of the element. (Class selector)<br>
+                ID selectors use the id attribute to select specific items. A hashtag (#) wil be 
+                placed before an element.<br>
+                Universal selectors use an asterisk (*) to target all HTML elements on the page.<br>
+                Child selectors link elements that are the children of other elements, but not 
+                other elements on the page.<br>
+                Descendant selectors match the element that is a descendant of another specified 
+                element. A space between the elements denotes ancestor/descendant relationship.<br>
+            </strong></center>
+            <p>External stylesheets are the most preferred way of styling HTML documents with CSS. Each 
+                rule is saved within a seperate stylesheet, which can be linked to the HTML pages by 
+                using a &lt;link&gt; element.<br>
+            Internal stylesheets are very similar to an External stylesheet, the only differences 
+                are that you have everything contained within a &lt;style&gt; element, which remains 
+                within the &lt;head&gt;, and it also is contained within the HTML page you want 
+                to affect. The internal method is best used when there is only one page of HTML.</p>
+        </div>
     </body>
 </html>
